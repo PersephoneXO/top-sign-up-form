@@ -9,3 +9,49 @@ body{
     margin: 0;
     padding: 0;
 }
+.content{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-container{
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner{
+    color: white;
+    font-family: 'Norse Bold',sans-serif;
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+}
+
+
+
+.banner img{
+    height: 100px;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: .9rem;
+}
+
+.attribution a{
+    text-decoration-color: white;
+    color: white;
+}
