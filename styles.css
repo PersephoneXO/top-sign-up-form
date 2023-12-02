@@ -18,7 +18,7 @@ body{
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     height: 100vh;
-    width: 45vw;
+    width: 55vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,21 +27,21 @@ body{
 .banner{
     color: white;
     font-family: 'Norse Bold',sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     background-color: rgba(0, 0, 0, 0.4);
-    height: 125px;
+    height: 105px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     padding: 0;
-    margin-top: 150px;
+    margin-top: 155px;
 }
 
 
 
 .banner img{
-    height: 100px;
+    height: 90px;
 }
 
 .attribution{
@@ -54,4 +54,63 @@ body{
 .attribution a{
     text-decoration-color: white;
     color: white;
+}
+
+
+.right-container{
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-container{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 470px;
+    font-size: .8rem;
+    margin-bottom: 23px;
+}
+
+
+.input-container{
+    background-color: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-top: 5px;
+    height: 265px;
+}
+
+#form-intro{
+    font-size: 1.2rem;
+    margin-left: 50px;
+    color: #293240;
+    margin-bottom: 25px;
+}
+
+.input-content{
+    margin-right: 150px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 100px;
+
+}
+
+label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: .7rem;
+    letter-spacing: .1rem;
+    margin-bottom: 5px;
+    color: #48505c;
+}
+label,input{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    height: 25px;
 }
